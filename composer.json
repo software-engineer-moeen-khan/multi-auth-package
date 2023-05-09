@@ -1,0 +1,25 @@
+{
+    "name": "moeen/laravel-multi-auth",
+    "description": "Multi Auth package for Laravel project.",
+    "license": "MIT",
+    "authors": [{
+        "name": "Moeen Khan",
+        "email": "moeenkhan028@gmail.com"
+    }],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Moeen\\LaravelMultiAuth\\LaravelMultiAuthServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Moeen\\LaravelMultiAuth\\": "src/"
+        }
+    },
+    "prefer-stable": true
+}
